@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.bimx.pfDemo" id="com.bimx.cfDemo"
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.bimx.pfDemo" id="com.bimx.ccDemo"
     versionCode="583"
     version   = "5.8.3">
     <name>Content Companion Pro</name>
