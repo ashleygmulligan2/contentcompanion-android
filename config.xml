@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.bimx.pfDemo" id="com.bimx.cfDemo"
+    versionCode="583"
+    version   = "5.8.3">
+    <name>Content Companion Pro</name>
+    
+    <description>
+       The bimX, Inc. Content Companion is an application that configures and delivers Autodesk Revit component families for use in a variety of applications. bimX Content Companion delivers spatial representations of equipment and assets quickly and easily. The application allows the configuration of data to be such that when loaded the Revit family already includes typical facilities management data.
+    </description>
+  <author href="http://bimx.co" email="info@bimx.co">bimX Team</author>
+  <content src="index.html"/>
+  
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="14"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+  
+  <!--
+   <plugin name="cordova-plugin-battery-status" source="npm"/>
+   <plugin name="cordova-plugin-camera" source="npm" />
+   <plugin name="cordova-plugin-media-capture" source="npm" />
+   <plugin name="cordova-plugin-console" source="npm" />
+   <plugin name="cordova-plugin-contacts" source="npm" />
+   <plugin name="cordova-plugin-device" source="npm"/>
+   <plugin name="cordova-plugin-device-motion" source="npm" />
+   
+   <plugin name="cordova-plugin-dialogs" source="npm"/>
+   <plugin name="cordova-plugin-file" source="npm" />
+   <plugin name="cordova-plugin-file-transfer" source="npm"/>
+   <plugin name="cordova-plugin-geolocation" source="npm"/>
+   <plugin name="cordova-plugin-globalization" source="npm"/>
+   <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+   <plugin name="cordova-plugin-media" source="npm"/>
+   <plugin name="cordova-plugin-network-information" source="npm"/>
+   
+   <plugin name="cordova-plugin-vibration" source="npm"/>
+   
+   -->
+  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <plugin name="cordova-plugin-whitelist" source="npm"/>
+  <plugin name="cordova-plugin-splashscreen" source="npm"/>
+  <plugin name="cordova-plugin-statusbar" source="npm"/>
+  <plugin name="cordova-plugin-device-orientation" source="npm"/>
+  
+  <icon src="icon.png"/>
+  
+  <platform name="android">
+      <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
+      <icon src="www/res/icon/android/drawable-mdpi-icon.png" density="mdpi"/>
+      <icon src="www/res/icon/android/drawable-hdpi-icon.png" density="hdpi"/>
+      <icon src="www/res/icon/android/drawable-xhdpi-icon.png" density="xhdpi"/>
+      <icon src="www/res/icon/android/drawable-xxhdpi-icon.png" density="xxhdpi"/>
+      <icon src="www/res/icon/android/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
+      <splash src="www/res/screen/android/drawable-land-ldpi-screen.png" platform="android" qualifier="land-ldpi"/>
+      <splash src="www/res/screen/android/drawable-land-mdpi-screen.png" platform="android" qualifier="land-mdpi"/>
+      <splash src="www/res/screen/android/drawable-land-hdpi-screen.png" platform="android" qualifier="land-hdpi"/>
+      <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png" platform="android" qualifier="land-xhdpi"/>
+      <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png" platform="android" qualifier="land-xxhdpi"/>
+      <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" platform="android" qualifier="land-xxxhdpi"/>
+      <splash src="www/res/screen/android/drawable-port-ldpi-screen.png" platform="android" qualifier="port-ldpi"/>
+      <splash src="www/res/screen/android/drawable-port-mdpi-screen.png" platform="android" qualifier="port-mdpi"/>
+      <splash src="www/res/screen/android/drawable-port-hdpi-screen.png" platform="android" qualifier="port-hdpi"/>
+      <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png" platform="android" qualifier="port-xhdpi"/>
+      <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png" platform="android" qualifier="port-xxhdpi"/>
+      <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" platform="android" qualifier="port-xxxhdpi"/>
+  </platform>
+  
+  <preference name="SplashScreen" value="splash"/>
+  <preference name="SplashScreenDelay" value="4000"/>
+  <preference name="ShowSplashScreenSpinner" value="false" />
+  
+    <access origin="*"/>
+    <access origin="http://bimxcc.com" subdomains="true" />
+    <allow-navigation href="http://bimxcc.com/*" />
+    <allow-intent href="http://bimxcc.com/*" />
+    
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+</widget>
